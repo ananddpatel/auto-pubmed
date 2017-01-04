@@ -1,0 +1,32 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+textarea {
+    box-sizing: border-box;
+    resize: none;
+    margin-top: 5px;
+}
+
+.container {
+
+}
+
+fieldset {
+	background-color: #f3f3f3;
+	padding: 10px 10px 10px 10px;
+	margin-top: 50px;
+	border-radius: 7px;
+}
+
+#bib {
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+}
+
+.navbar-nav {
+	float: right;
+}
