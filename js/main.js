@@ -4,15 +4,15 @@ var bib = $('#bib');
 var pubmedAPIUrl = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi';
 var contact = $('#contact');
 
+contact.click(function(){
+	$('#contactModal').load('contact.html')
+});
+
 addbibBtn.click(function(){
 	if (urlInput.val()) {
 		var id = getArticleId(urlInput.val());
 		searchPubmed(id);
 	}
-});
-
-contact.click(function(){
-	$('#contactModal').load('contact.html')
 });
 
 function getArticleId(pubmedUrl){

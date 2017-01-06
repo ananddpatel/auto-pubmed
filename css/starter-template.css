@@ -6,21 +6,28 @@ body {
   text-align: center;
 }
 
-textarea {
-    box-sizing: border-box;
-    resize: none;
-    margin-top: 5px;
+.navbar a {
+  color: white !important;
 }
 
-.container {
+.navbar a:hover {
+  color: #dadada !important;
+}
 
+.navbar {
+    background-color: #369;
 }
 
 fieldset {
 	background-color: #f3f3f3;
 	padding: 10px 10px 10px 10px;
-	margin-top: 50px;
-	border-radius: 7px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+textarea {
+    box-sizing: border-box;
+    resize: none;
+    margin-top: 5px;
 }
 
 #bib {
